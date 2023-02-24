@@ -31,12 +31,12 @@
 </style>
 
 
-<body class="debug">
+<body class="">
 
   <header class=" container-fluid ">
     <section class="row header-bg  justify-content-center align-content-center text-center text-warning header-sizing">
       <div class="col-12">
-        <img src="vector.svg" alt="bat icon">
+        <img src="Batsymbol.svg" alt="bat icon">
         <h1>Welcome to the Batcave</h1>
         <p>THERE IS ONLY FOR ONE BAT IN THIS CAVE</p>
         <button class="btn btn-warning">Get Started</button>
@@ -44,7 +44,7 @@
     </section>
     <!-- SECTION Navbar -->
     <section class="row">
-      <nav>Bootstrap navbar</nav>
+      <nav class="col-12">Bootstrap navbar</nav>
     </section>
   </header>
 
@@ -56,7 +56,7 @@
         <P>Lorem ipsum dolor sit amet consectetur.</P>
       </div>
       <!-- NOTE adjust image size -->
-      <div class="col-6 img-fluid"><img
+      <div class="col-6 img-radius img-fluid"><img
           src="https://images.unsplash.com/photo-1613298209752-5644a907c101?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8QkFUU3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           alt=""></div>
       <div class="col-6 text-start">
@@ -74,24 +74,28 @@
     </section>
     <!-- SECTION Services -->
     <section class="row">
-      <div class="col-12 justify-content-center align-content-center text-center">
+      <div class="col-12 justify-content-center align-content-center text-center my-3">
         <h2>SERVICES</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, corporis.</p>
       </div>
-      <div class="col-6">
-        <h3>Justice</h3>
+      <div class="col-6 px-3">
+        <h3><img class="quotes" src="material-symbols_picture-as-pdf-outline.svg" alt=""> Justice</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptatibus!</p>
-        <h3>Vengeance</h3>
+        <h3><img class="quotes" src="bx_cube-alt.svg" alt=""> Vengeance</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iste sint.</p>
-        <h3>Fighting Crime</h3>
+        <h3><img class="quotes" src="Vector (2).svg" alt=""> Fighting Crime</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <h3>These Hands</h3>
+        <h3><img class="quotes" src="Vector (1).svg" alt=""> These Hands</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis.</p>
       </div>
-      <div class="col-6 img-fluid"><img class="img-sizing"
+      <div class="col-6 img-radius img-fluid px-3"><img class="img-sizing"
           src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmF0bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt=""></div>
-      <div class="col-6">services pic</div>
+      <div class="col-6">
+        <img class="img-radius img-sizing"
+          src="https://images.unsplash.com/photo-1611604548018-d56bbd85d681?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt="">
+      </div>
       <div class="col-6">
         <h3>Repellent Bat Spray</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptatibus!</p>
@@ -102,6 +106,7 @@
         <h3>Brooding</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis.</p>
       </div>
+      <!-- SECTION Broken accordion-->
       <div class="col-8">
         <h3 class="py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, iusto!</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, a dicta! Cupiditate harum enim officia
@@ -157,8 +162,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <embed src="https://www.youtube.com/watch?v=X7SiuQxhAjg" type="video">
+      <div>
       </div>
       <div class="col-12 city-bg text-light text-shadow justify-content-center text-center py-2">
         <img class="quotes" src="doublequotes.svg" alt="">
@@ -172,23 +176,53 @@
       </div>
     </section>
     <!-- SECTION Pricing -->
-    <section class="row">
-      <div class="col-12">.
+    <section class="row justify-content-center m-3">
+      <div class="col-12 text-center mb-2">.
         <h2>PRICING</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus?</p>
       </div>
-      <div class="col-4"></div>
-      <div class="col-4"></div>
-      <div class="col-4"></div>
+      <div class="col-md-3 text-center border border-warning rounded mx-2 box-shadow">
+        <h6>Clean streets</h6>
+        <p>
+          <span class="prices">$0</span> / month
+        </p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p><s>Lorem ipsum dolor sit.</s></p>
+        <p><s>Lorem, ipsum.</s></p>
+        <button class="btn btn-outline-warning mb-2">POW!</button>
+      </div>
+      <div class="col-md-3 text-center border border-warning rounded mx-2 heavy-shadow">
+        <h6>Intimidation</h6>
+        <p>
+          <span class="prices">$19</span> / month
+        </p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <p><s>Lorem, ipsum.</s></p>
+        <button class="btn btn-warning mb-2">POW!</button>
+      </div>
+      <div class="col-md-3 text-center border border-warning rounded mx-2 box-shadow">
+        <h6>Joker Takedown</h6>
+        <p>
+          <span class="prices">$29</span> / month
+        </p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem, ipsum.</p>
+        <button class="btn btn-outline-warning mb-2">POW!</button>
+      </div>
     </section>
 
     <!-- SECTION Contact -->
     <section class="row">
-      <div class="col-12">.
+      <div class="col-12 justify-content-between text-center ">.
         <h2>CONTACT</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus?</p>
       </div>
-      <div class="col-4">
+      <div class="col-4 my-3 mx-3 border border-warning rounded  box-shadow">
         <h3>Location</h3>
         <p>Address</p>
         <h3>Email</h3>
@@ -196,19 +230,37 @@
         <h3>Call:</h3>
         <p>+1 589 5555</p>
       </div>
-      <div class="col-8">Form with a button</div>
+      <div class="col-7 my-3 align-content-center mx-2 text-center border border-warning rounded box-shadow">
+        <div class="d-flex">
+          <div class="m-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+          </div>
+          <div class="m-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Message">
+          <button class="btn btn-success mt-4">Send Message</button>
+        </div>
+      </div>
     </section>
   </main>
   <!-- SECTION footer -->
   <footer>
-    <section class="row header-bg  justify-content-center text-center text-warning">
+    <section class="row header-bg  justify-content-center text-center text-warning py-5">
       <div class="col-12">
         <div class="align-content-center">
-          <div class=>ICON HERE</div>
+          <div>
+            <img class="batsymbol" src="Batsymbol.svg" alt="">
+          </div>
           <h1>Dark Knight</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae vel numquam sit impedit est!</p>
-          <Form>EMAIL</Form>
-          <div>ICONS HERE</div>
+          <Form>Darkknight@thecave.com</Form>
+
         </div>
       </div>
     </section>
